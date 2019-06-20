@@ -24,3 +24,10 @@ summary(lin_mod3)
 predictions3<-predict(lin_mod3,wb_trun)
 plot(wb_trun$EUR.ft,predictions3)
 plot(lin_mod3)
+
+#Change response to CFF360, 3 predictors only
+lin_mod3<-lm(CFF360~BVf+lbs.ft+xloc+yloc,data=wb_trun)
+summary(lin_mod3)
+predictions3<-predict(lin_mod3,wb_trun)
+plot(wb_trun$EUR.ft,predictions3)
+plot(lin_mod3)
