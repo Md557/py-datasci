@@ -1,4 +1,4 @@
-setwd("c:/users/thede/Documents/CS-code/Github/petroleum well analysis example")
+
 wb<-read.csv("final wb.csv",header= TRUE)
 wb_trun<-wb[1:64,]
 
