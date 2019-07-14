@@ -1,2 +1,2 @@
-The following example uses Selenium Chrome Driver to mine Web Elements from google search and split results into three sections: Search Results, Twitter Results and Web results. Results are shown in Swing GUI with some console output as well.  
+The following example uses Selenium Chrome Driver & java.Swing to mine Web Elements from google search and split results into three sections: Search Results, Twitter Results and Web results. Results are shown in Swing GUI with some console output as well.  
 The example was heavily modified from the Selenium Testing Tools Cookbook, Second Edition, (Gundecha, Unmesh) in Ch1 and was only used to get the project & imports started.....
