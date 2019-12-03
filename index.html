@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" 
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{base}">
+
+<head>
+	<title>Currency charts (based on openexchangerates.org API)</title>
+</head>
+<body>    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js"></script>
+        <script src="http://malsup.github.io/min/jquery.form.min.js"></script>
+  
+    
+	<script src="./money.js"></script>
+    <script src="./currency_getJSON.js"></script>
+
+    <div class="col-md-6">
+			<h2>Currency Chart</h2>
+			<div id="FX-chart" style="height: 900px;">
+				<div class="alert alert-info">
+					<i class="fa fa-spinner fa-spin"></i> Loading Currency Data...
+				</div>
+			</div>
+			<h2>Currency table</h2>
+			<div id="FX-table" style="width: 900px;">
+				<div class="alert alert-info">
+					<i class="fa fa-spinner fa-spin"></i> Loading Currency Data...
+				</div>
+			</div>
+
+    </div>
+
+
+</body>
+</html>
