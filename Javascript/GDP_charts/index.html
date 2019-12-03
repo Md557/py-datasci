@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" 
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{base}">
+
+<head>
+	<title>GDP charts (based on worldgdp project (Spring 5.0 Projects)</title>
+</head>
+<body>    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js"></script>
+        <script src="http://malsup.github.io/min/jquery.form.min.js"></script>
+  
+    
+	<script src="./country.js"></script>
+    <script src="./country_getJson.js"></script>
+
+    <div class="col-md-6">
+			<h2>GDP Chart #1</h2>
+			<div id="gdp-chart" style="height: 900px;">
+				<div class="alert alert-info">
+					<i class="fa fa-spinner fa-spin"></i> Loading GDP Data...
+				</div>
+			</div>
+    </div>
+    <div class="col-md-6">
+			<h2>GDP Chart #2</h2>
+			<div id="gdp-chart2" style="height: 900px;">
+				<div class="alert alert-info">
+					<i class="fa fa-spinner fa-spin"></i> Loading GDP Data w/ JSON...
+				</div>
+			</div>
+    </div>
+    <div class="col-md-6">
+			<h2>GDP Chart #3</h2>
+			<div id="gdp-chart3" style="height: 900px;">
+				<div class="alert alert-info">
+					<i class="fa fa-spinner fa-spin"></i> Loading GDP Data w/ JSON...
+				</div>
+			</div>
+    </div>
+
+</body>
+</html>
