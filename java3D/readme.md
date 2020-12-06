@@ -1,4 +1,4 @@
-The following is a real-time simulation based upon Euler Coordinates of a rigid object rotating & precessing in a gravitational field.
+##The following is a real-time simulation based upon Euler Coordinates of a rigid object rotating & precessing in a gravitational field.
 Theory/equations of motion based upon "Classical Dynamics of particles and systems", Marion & Thornton, 4th edition, Chapter 11.
 Created for supplemental instruction purposes for Physics department at University of Texas (PHY 336K)
 
